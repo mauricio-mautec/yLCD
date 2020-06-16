@@ -1,0 +1,4 @@
+*/3  * * * *        /srv/mautec/www/yLCD/bin/python3 /srv/mautec/www/yLCD/collectSensorData.py
+0,15,30,45  * * * * /srv/mautec/www/yLCD/bin/python3 /srv/mautec/www/yLCD/collectWeatherData.py darksky.net
+5,20,35,50  * * * * /srv/mautec/www/yLCD/bin/python3 /srv/mautec/www/yLCD/collectWeatherData.py openweathermap.org
+10,25,40,55 * * * * /srv/mautec/www/yLCD/bin/python3 /srv/mautec/www/yLCD/collectWeatherData.py yr.no
