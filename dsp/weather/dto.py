@@ -71,7 +71,8 @@ class weatherDB(object):
         for medida in measure.keys():
             if medida in self.Measure.keys():
                 self.Measure[medida][1] = measure[medida]
-        # REMOVE VALUES NOT COLLECT
+
+    # REMOVE VALUES NOT COLLECT IN MEASURE INITIALIZATION
         if measure:
             keyAvailable = list(self.Measure.keys())
             keyCollected = list(measure.keys()) 
